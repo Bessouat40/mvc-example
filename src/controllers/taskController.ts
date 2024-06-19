@@ -1,5 +1,5 @@
-import { TaskModel } from './taskModel';
-import { TaskView } from './taskView';
+import { TaskModel } from '../models/taskModel';
+import { TaskView } from '../views/taskView';
 
 export class TaskController {
   private model: TaskModel;

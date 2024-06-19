@@ -1,6 +1,6 @@
-import { TaskModel } from './taskModel';
-import { TaskView } from './taskView';
-import { TaskController } from './taskController';
+import { TaskModel } from './models/taskModel';
+import { TaskView } from './views/taskView';
+import { TaskController } from './controllers/taskController';
 
 document.addEventListener('DOMContentLoaded', () => {
   const model = new TaskModel();

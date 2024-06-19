@@ -1,4 +1,4 @@
-import { Task } from './task';
+import { Task } from '../task';
 
 export class TaskView {
   private app: HTMLElement;
@@ -18,7 +18,6 @@ export class TaskView {
     this.app.appendChild(this.taskButton);
     this.app.appendChild(this.taskList);
 
-    // Initialiser la méthode onToggleTaskCallback à une fonction vide pour éviter les erreurs.
     this.toggleTaskCallback = () => {};
   }
 
