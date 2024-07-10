@@ -3,5 +3,6 @@
 Run this project :
 
 ```bash
+npm i
 npm start
 ```
